@@ -1,0 +1,109 @@
+/* Paleta de Colores 
+  Amarillo = #EAC926
+  Azul = #03264C
+  Celeste = #1259c3
+  Gris Oscuro = #666
+  Gris Claro = #ebebeb
+  Verde = #39b54a
+*/
+
+* {
+  box-sizing: border-box;
+  color: #666;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.titulares {
+  font-size: 24px;
+}
+
+.precios {
+  font-size: 18px;
+}
+
+.descuentos,
+.descripciones > strong,
+h3 {
+  font-size: 16px;
+}
+
+/* Header */
+
+header {
+  background-color: #eac926;
+}
+
+.search-engine {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  width: 80%;
+}
+
+.search-engine button{
+  width: 20px;
+}
+
+
+
+.info-payments {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+header nav i,
+header section i,
+header section p,
+header nav ul li a {
+  color: black;
+}
+
+.menu {
+  padding: 20px 0;
+}
+
+.burguer-menu {
+  background-color: #1259c3;
+  border-radius: 6px;
+  margin: auto;
+  padding: 10px 10px;
+  text-align: center;
+  width: 11%;
+}
+
+.icon-menu {
+  color: white;
+  font-size: 20px;
+}
+
+/* Main */
+.banner{
+  width: 100%;
+}
+
+.banner img{
+  width: 100%;
+}
+
+/* Footer */
+
+footer {
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+}
+.center {
+  padding-bottom: 45px;
+  text-align: center;
+}
+
+.icon-footer {
+  color: #1259c3;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
