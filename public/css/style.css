@@ -17,21 +17,18 @@
   text-decoration: none;
 }
 
-.titulares {
-  font-size: 24px;
-}
-
-.precios {
-  font-size: 18px;
-}
-
-.descuentos,
-.descripciones > strong,
-h3 {
-  font-size: 16px;
-}
-
 /* Header */
+
+.main-logo{
+  width: 40%;
+  padding-top: 30px ;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.main-logo img{
+  width: 100%;
+}
 
 header {
   background-color: #eac926;
@@ -39,16 +36,17 @@ header {
 
 .search-engine {
   display: flex;
-  flex-direction: column;
   margin-left: 16px;
   width: 80%;
 }
 
-.search-engine button{
+.search-engine button {
   width: 20px;
 }
 
-
+.search-engine input {
+  width: 170px;
+}
 
 .info-payments {
   display: flex;
@@ -69,11 +67,11 @@ header nav ul li a {
 
 .burguer-menu {
   background-color: #1259c3;
-  border-radius: 6px;
+  border-radius: 8px;
   margin: auto;
   padding: 10px 10px;
   text-align: center;
-  width: 11%;
+  width: 46px;
 }
 
 .icon-menu {
@@ -81,19 +79,87 @@ header nav ul li a {
   font-size: 20px;
 }
 
+.navbar {
+  display: none;
+}
+
 /* Main */
-.banner{
+main {
+  background-color: #ebebeb;
+}
+
+.main {
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 10px;
+}
+
+.main article img {
   width: 100%;
 }
 
-.banner img{
+.banner {
   width: 100%;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.titulares {
+  font-size: 24px;
+  padding: 20px 0;
+}
+
+.precios {
+  font-size: 18px;
+  color: black;
+}
+
+.descuentos,
+.descripciones > strong,
+h3 {
+  font-size: 16px;
+}
+
+.descuentos {
+  color: #39b54a;
+}
+
+.descripciones {
+  padding-top: 20px;
+  display: none;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 1px solid #39b54a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+}
+
+.circle i {
+  color: #39b54a;
+}
+
+.info-card {
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+}
+
+.product {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 0;
 }
 
 /* Footer */
 
-footer {
-  margin: 0 auto;
+.footer {
+  margin: 10px auto;
   padding: 20px;
   width: 80%;
 }
@@ -106,4 +172,26 @@ footer {
   color: #1259c3;
   font-size: 2em;
   margin-bottom: 10px;
+}
+
+/* BreakPoints */
+
+@media (min-width: 361px) {
+
+  .descripcione,
+  .navbar {
+    display: block;
+  }
+
+  .product {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+
+  .main-logo{
+    width: 60%;
+  }
+}
+
+@media (min-width: 769px) {
+
 }
