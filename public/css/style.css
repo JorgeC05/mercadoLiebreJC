@@ -271,7 +271,6 @@ FOMULARIO **********************************************************************
   border-radius: 6px;
 }
 
-
 .input input[type="text"]:focus,
 .input input[type="email"]:focus,
 .input input[type="password"]:focus,
@@ -279,7 +278,8 @@ FOMULARIO **********************************************************************
   outline-color: #1259c3;
 }
 
-.date, .image {
+.date,
+.image {
   display: flex;
   flex-direction: column;
 }
@@ -320,36 +320,49 @@ FOMULARIO **********************************************************************
   padding-left: 15px;
 }
 
-.input label.form-titles{
+.input label.form-titles {
   font-size: 18px;
   font-weight: 700;
   padding-bottom: 10px;
   display: inline-block;
 }
 
-.profile-box{
+.profile-box {
   display: flex;
   justify-content: space-evenly;
 }
 
-.profile-check{
+.profile-check {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.categories-check{
+.categories-check {
   display: flex;
 }
 
-.profile-check label, .categories-check label{ 
+.profile-check label,
+.categories-check label {
   padding-left: 5px;
   padding-bottom: 5px;
 }
 
-.loginSend{
+.loginSend {
   width: 100%;
   justify-content: center;
+}
+
+.image input[type="file"] {
+  display: none;
+}
+
+.image label {
+  background-color: #1259c3;
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+  border-radius: 6px;
 }
 
 /* BreakPoints *******************************************************************************************************/
