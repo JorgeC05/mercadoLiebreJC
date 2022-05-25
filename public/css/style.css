@@ -75,6 +75,10 @@ header nav ul li a {
   padding: 11px;
 }
 
+.search-engine input[type="text"]::placeholder{
+  text-align: center;
+}
+
 .info-payments {
   display: flex;
   justify-content: center;
