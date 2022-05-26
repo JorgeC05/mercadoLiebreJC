@@ -21,10 +21,11 @@
 
 header {
   background-color: #eac926;
-  height: 25vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding: 30px 0;
 }
 
 .header-logo-search {
