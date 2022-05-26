@@ -520,6 +520,7 @@ FOMULARIO **********************************************************************
 @media (min-width: 821px) {
   header {
     height: 30vh;
+    padding: 8px 0;
   }
 
   .main-logo img {
