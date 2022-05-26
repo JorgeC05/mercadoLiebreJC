@@ -3,7 +3,7 @@ const app = express();
 
 const path = require("path");
 
-const port = 4000;
+const port = process.env.PORT || 4000;
 
 // Utilizar la carpeta public
 app.use(express.static("public"));
